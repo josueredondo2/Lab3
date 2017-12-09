@@ -13,7 +13,7 @@ namespace Lab3
 		{
 			InitializeComponent();
 
-			MainPage = new View.HomePage();
+			MainPage = new View.Login();
 		}
 
 		protected override void OnStart ()

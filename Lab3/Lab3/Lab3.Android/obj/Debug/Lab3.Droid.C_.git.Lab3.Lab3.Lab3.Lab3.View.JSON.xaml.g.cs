@@ -11,7 +11,7 @@
 namespace Lab3.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\git\\Lab3\\Lab3\\Lab3\\Lab3\\View\\JSON.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Git\\Lab3\\Lab3\\Lab3\\Lab3\\View\\JSON.xaml")]
     public partial class JSON : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

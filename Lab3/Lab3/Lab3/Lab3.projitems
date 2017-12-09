@@ -13,8 +13,10 @@
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Model\JSONModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Login.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\RESTModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\XMLModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\LoginViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModel\TabbedPageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)View\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
@@ -22,6 +24,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)View\JSON.xaml.cs">
       <DependentUpon>JSON.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)View\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)View\REST.xaml.cs">
@@ -59,6 +65,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)View\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

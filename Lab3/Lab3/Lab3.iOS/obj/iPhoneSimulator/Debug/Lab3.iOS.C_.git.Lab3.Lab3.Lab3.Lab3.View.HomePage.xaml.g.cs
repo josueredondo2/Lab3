@@ -11,7 +11,7 @@
 namespace Lab3.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\git\\Lab3\\Lab3\\Lab3\\Lab3\\View\\HomePage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Git\\Lab3\\Lab3\\Lab3\\Lab3\\View\\HomePage.xaml")]
     public partial class HomePage : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
